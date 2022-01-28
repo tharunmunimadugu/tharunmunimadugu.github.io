@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<style>
+	/*set border to the form*/
+
+	
+	/*assign full width inputs*/
+	
+	input[type=text],
+	input[type=password] {
+		align-items: center;
+		width: 35%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	/*set a style for the buttons*/
+	.block {
+  display: block;
+  width: 10%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/952/536/1006/winter-4k-pc-desktop-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+	
+	button {
+		background-color: #4CAF50;
+		width: 50%;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
+	/* set a hover effect for the button*/
+
+	
+	button:hover {
+		opacity: 0.8;
+	}
+	/*set extra style for the cancel button*/
+	
+	.cancelbtn {
+		width: auto;
+		padding: 10px 18px;
+		background-color: #f44336;
+	}
+	/*centre the display image inside the container*/
+	
+	.imgcontainer {
+		text-align: center;
+		margin: 2px 0 12px 0;
+	}
+	/*set image properties*/
+	
+	img.avatar {
+	    padding: 1.5em;
+		width: 15%; 
+		border-radius: 50%;
+
+	}
+	/*set padding to the container*/
+	
+	.container {
+		padding-top: 3em;
+		padding-left: 35em;
+	}
+
+	/*set the forgot password text*/
+	
+	span.psw {
+		
+		padding-top: 16px;
+		padding-left: 15em;
+	}
+	img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+	/*set styles for span and cancel button on small screens*/
+	
+	@media screen and (max-width: 300px) {
+		span.psw {
+			display: block;
+			float: none;
+		}
+		.cancelbtn {
+			width: 100%;
+			padding: 5em;
+			background-color: 
+		}
+	}
+</style>
+
+<body>
+
+	<h1 style="text-align:center;", style="font: white;">Login Form</h1>
+	
+	<!--Step 1 : Adding HTML-->
+	<form action="/action_page.php">
+		<div class="imgcontainer">
+			<img src= "C:\Users\Tharun\Desktop\DSC_6379.png"
+				alt="Avatar" class="avatar">
+		</div>
+
+		<div class="container">
+			<label><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+<br><br>
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required>
+<br>
+		<button type="submit" class="block">Login</button>
+			<input type="checkbox" checked="checked"> Remember me
+			<input type="checkbox" onclick="myFunction()">Show Password
+			
+		</div>
+
+		<div class="container">
+			<button type="button" class="cancelbtn">Cancel</button>
+			<span class="psw">Forgot <a href="#">password?</a></span>
+
+		</div>
+	</form>
+
+	 
+
+</body>
+
+</html>
