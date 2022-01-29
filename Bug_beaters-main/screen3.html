@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>screen 3</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <style>
+       tr, td {
+  border: 1px solid black;
+  padding:30px;
+}
+       .head1,.head2,.head3,.head4{
+         margin-top:30px;
+         padding:50px;
+
+       }
+       .b1,.b2{
+          margin-left:50px;
+          padding:20px;
+       }
+       .op1{
+           background:red;
+           color:white;
+       }
+       .d1{
+           padding:10px;
+       }
+       .d3{
+           margin-left:30px;
+       }
+       .tabl{
+           margin-left:50px;
+       }
+       .size1{
+           margin-left:30px;
+       }
+       .tabl1{
+           margin-left:-50px;
+       }
+       .tabl2{
+           margin-left:-23px;
+           margin-top:-20px;
+       }
+       .b3{
+           padding:20px;
+       }
+       .c1{
+           margin-right:20px;
+       }
+       .tab{
+        padding-left: 16vh;
+        padding-top: 0vh;
+        margin-top: 0vh;
+        align-content: center;
+
+           
+       }
+       p{
+           margin-top:10px;
+           margin-left:30px;
+           background:red;
+           width:93px;
+           padding:5px;
+           color:white;
+           margin-bottom:3px;
+       }
+        </style>
+    </head>
+    <body>
+        <div class="head1 tabl1">
+        <button class=" b1 btn btn-primary">Open Market</button>
+        <button class="b2 btn btn-secondary">Close Market</button>
+        </div>
+        <div class="tabl2 head2 size1">
+            <p>Select stock</p>
+            <select class="b3 d3">
+                <option>DBS</option>
+                <option>...</option>
+                </select>
+            <div class="tab">
+                <p>ss</p>
+            <input type="date" class="b3 d3" placeholder="From Date"></div>
+
+            <div class="tabb">            <p>mm</p>
+            <input type="date" class="b3 d3" placeholder="To Date">
+            <button class="b3 d3 btn btn-primary">Show Orders</button></div>
+        
+        </div>
+<div>
+    <table class="head4 tabl">
+        
+        
+         <tr>
+             <td class="op1">S.No</td>
+             <td class="op1">Stock Name</td>
+             <td class="op1">Order Qty</td>
+             <td class="op1">Order Type</td>
+             <td class="op1">Executed Qty</td>
+             <td class="op1">Price</td>
+             <td class="op1">Order Ststus</td>
+             <td class="op1">Order date</td>
+         </tr>
+        
+         <tr>
+          <td>1.</td>
+          <td>DBS</td>
+          <td>50</td>
+          <td>Limit</td>
+          <td>50</td>
+          <td>150</td>
+          <td>EXECUTED</td>
+          <td>21 Feb</td>   
+         </tr>
+            
+         <tr>   
+        </tr>
+            
+    </table>
+    </div>
+    <div class="head3">
+        Execution Qty
+        <input type="number" class="d1 b3">
+        Execution Price
+        <input type="number" class="d1 b3">
+        <button class="d3 c1 b3 btn btn-secondary">Execute Orders</button>
+    </div>

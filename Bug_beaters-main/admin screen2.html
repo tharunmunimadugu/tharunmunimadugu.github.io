@@ -1,0 +1,32 @@
+<html>
+    <head><title>admin screen 2</title></head>
+    <body>
+        <form>
+            <table align="center" width="25%" border='0' cellspacing='1' cellpadding='5'>
+                <tr><td>
+            <input type='button' value='Open Market' style='background-color:red;color:black'></td><td>
+            <input type='button' value='Close Market' style='background-color:red;color:black'></td></tr></table>
+            <br>
+            <table align="center" width="50%" border='1' cellspacing='1' cellpadding='5'>
+                <tr><td><label>Select Stock</label></td>
+                    <td><label>From Date</label></td>
+                    <td><label>To Date</label></td>
+                    </tr>
+                    <tr>
+                        <td><select name='books'><option value='DBS'>DBS</option><option value='AWS'>AWS</option></select></td>
+                        <td><input type='date'></td>
+                        <td><input type='date'></td>
+                        </td></tr>
+            </table>
+            <br>
+            <center><input type='button' value='Show Order' style='background-color:red;color:black'></center>
+            <br>
+            <table align="center" width="25%" border='1' cellspacing='1' cellpadding='5'>
+                <tr><td><label>Execution Qty</label></td><td><label>Execution Price</label></td></tr>
+                <tr><td><input type='number' value='40'></td><td><input type='number' value='150'></td> </tr>
+        </table>
+        <br>
+        <center><input type='submit' value="Execute Orders" style='background-color:red;color:black'></center>
+            </form>
+    </body>
+</html>
