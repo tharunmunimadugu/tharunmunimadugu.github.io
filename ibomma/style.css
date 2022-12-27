@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+     
+}
+body{
+    background:#1a1919;
+    overflow-x: hidden;
+
+}
+nav{
+    background: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    padding: 10px 100px;
+    
+
+}
+nav .logo{
+    cursor: pointer;
+}
+nav .nav-items{
+ display:flex;
+ flex: 1;
+ padding: 0 0 0 40px;
+ margin-left: 400px;
+
+
+}
+nav .nav-items a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav .nav-items a i{
+    color: #368338e1;
+    padding: 5px;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border:1px solid rgba(155, 155, 155, 0.2)
+
+
+}
+
+nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    background: none;
+}
+nav form button{
+    padding: 0 10px;
+    background: #368338e1;
+    color: #fff;
+    font-size: 17px;
+    border:none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:hover{
+    background: #306331e1;
+}
+.content{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    padding: 35px 0px  35px 0px;
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 6px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+.content p{
+    margin-top: 30px;
+}
+.content p i{
+    color: #368338e1;
+}
+.content .underline{
+  width: 20%;
+  height: 20px;
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 2%;
+    padding: 0px 60px 0px 60px;
+}
+.movie-items p{
+    font-size: 13px;
+}
+.column{
+    float: left;
+    width: 16.66%;
+    cursor: pointer;
+}
+.row::after{
+    content:'';
+    clear: both;
+    display: table;
+}
+.column h4,p{
+    color: white;
+}
+.column:hover{
+    scale: 1.1;
+}
+.user{
+    border: #fff;
+    background: rgb(50, 50, 50);
+    border: #fff;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 6%;
+    margin-right: 4.5%;
+    text-align: center;
+    color: white;
+    padding: 35px 0px  35px 0px;
+
+}
+.user h4{
+    color: white;
+    font-size: 25px;
+    
+}
+.user p{
+    color:rgb(229, 229, 229);
+}
+.user form{
+    display: flex;
+    width: 45%;
+    height: 40px;
+    margin-left: 27%;
+    margin-top: 3%;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 50px;
+    border-radius: 30px;
+    border:1px solid rgba(155, 155, 155, 0.2)
+
+
+}
+
+.user form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    background: none;
+}
+.user form button{
+    padding: 0 10px;
+    background: #368338e1;
+    color: #fff;
+    font-size: 17px;
+    border:none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+.user form button:hover{
+    background: #306331e1;
+}
+.copy p{
+color: rgb(89, 89, 89);
+font-family:'EB Garamond', serif;
+margin-left: 45.3%;
+margin-top: 15%;
+
+
+}
+.copy h5{
+    color: rgb(89, 89,89);
+    font-family: 'EB Garamond', serif;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.details{
+    font-family:'EB Garamond', serif; ;
+}
+.details h2{
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: space-between;
+    letter-spacing: 7px;
+
+}
+.details p{
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: 80s;
+    color: rgb(204, 201, 196);
+    padding: 3px 3px 3px 0px;
+}
+.details p b{
+    color: #368338e1;
+}
+.faq{
+    color: #368338e1;
+    font-weight: 900;
+    margin-left: 5%;
+}
+.details h3{
+    color: rgb(238, 234, 228);
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.new p{
+    padding: 3px;
+}
+.footer{
+    background: #1e1f20;
+    padding: 6px;
+    margin-bottom: 2%;
+    text-decoration: none;
+    display: flex;
+    
+}
+.ab a{
+    padding: 7px;
+    text-decoration:none;
+    display: flex;
+    color: white;
+    align-content: center;
+}
+.abc{
+    padding: 7px 7px 7px 7px;
+    color: white;
+    display: flex;
+}
+.abc a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+.abcd{ padding: 7px 7px 7px 7px;
+    color: white;
+    display: flex;
+}
+.abcd a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+.footer-left{
+    padding-left: 1160px;
+    padding-top: 7px;
+}
+.footer-left a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+.footer a{
+    font-size: 13px;
+}
+.container{
+    background: rgb(39, 38, 38);
+    padding: 18px 0px 5px 50px;
+    align-content: center;
+    margin-left: 30%;
+    margin-right:30%;
+    margin-top: 10%;
+    border: 1px solid rgb(49, 51, 49);
+    border-radius: 5px;
+    
+}
+.teaser{
+    background: #212121;
+    width: 8%;
+    margin-left: 92%;
+    border-radius: 3px;
+    padding: 0px 0px 0px 4px;
+}
+.teaser p{
+    display: flex;
+    padding: 4px;
+    color: #4CAF50;
+
+
+
+}
+.image{
+    margin-left:32%;
+    margin-top: 2%;
+}
+.container h1{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 15%;
+    letter-spacing: 3px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:184px;
+    margin-top: 4%;
+}
+.container p{
+    text-align: center;
+    margin-top: 3%;
+    font-size: small;
+    margin-bottom: 0%;
+}
+.container h5{
+    color: rgb(199, 199, 199);
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 6%;
+    margin-left: 215px;
+
+}
